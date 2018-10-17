@@ -11,6 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { SecondTestPageModule } from '../pages/second-test/second-test.module';
 import { SecondTestPage } from '../pages/second-test/second-test';
 import { ThirdTestPage } from '../pages/third-test/third-test';
+import { FourthTestPage } from '../pages/fourth-test/fourth-test';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ThirdTestPage } from '../pages/third-test/third-test';
     HomePage,
     ListPage,
     SecondTestPage,
-    ThirdTestPage
+    ThirdTestPage,
+    FourthTestPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { ThirdTestPage } from '../pages/third-test/third-test';
     HomePage,
     ListPage,
     SecondTestPage,
-    ThirdTestPage
+    ThirdTestPage,
+    FourthTestPage
   ],
   providers: [
     StatusBar,

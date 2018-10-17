@@ -3,16 +3,41 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Introduction</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+    <ion-fab right top>
+        <button ion-fab color="dark"><ion-icon name="arrow-dropleft"></ion-icon></button>
+        <ion-fab-list side="left">
+          <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+          <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+          <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+          <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+        </ion-fab-list>
+      </ion-fab>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="https://www.pokepedia.fr/images/d/d0/Pikachu-LGPÉ.png">
+      </ion-avatar>
+      <div class="id">
+          <h2>Nguyen Minh Duy</h2>
+          <p>April 21, 1989</p>
+      </div>
+    </ion-item>
+  
+    <img src="https://www.fastcar.co.uk/wp-content/uploads/2018/05/Tuned-Nissan-S15-Silvia-08.jpg">
+  
+    <ion-card-content>
+      <div class="desc">
+          <p>Photographe Amateur</p>
+      </div>
+    </ion-card-content>
+  
+  </ion-card>
 </ion-content>
